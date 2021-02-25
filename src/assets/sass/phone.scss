@@ -1,0 +1,84 @@
+html,body{
+    height: 100%;
+}
+
+.phone{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+}
+.phone-text{
+    width: 90%;
+    margin: auto;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    .phone-img{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: url('~@/assets/imgage/zzjg.png') no-repeat no-repeat;        
+        background-size: cover;
+    }
+    .phone-name{
+        position: relative;
+        top: 0;
+        left: -100px;
+    }
+}
+.content .phone-text{
+    border-bottom: 1px solid #d9dadd;
+}
+.phone-nameuser{
+    transform: translateX(-20px);
+    width: 200px;
+}
+.phone-imguser{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+    line-height: 44px;
+}
+.title{
+    background:#e4dfdf;
+    
+}
+.headertitle{
+    font-size:18px;
+    line-height: 40px;
+    height: 30px;
+    margin-left: 10px;
+}
+.search{
+    height:50px;
+    background: white;
+}
+.organization{
+    height:50px;
+    z-index: 1000;
+    background: white;
+}
+.content{
+    flex:1;
+    overflow-y: auto;
+   
+}
+.icons{
+    color: #6a12dc !important;
+}
+::v-deep .van-index-bar__sidebar{
+    z-index: 10000000000 !important;
+    position: fixed;
+    top: 50%;
+    right: 0;
+}
+::v-deep .van-index-bar__index{
+    font-size: 12px;
+    color: #0d41d5;
+    margin-bottom: 10px;
+    z-index: 100000;
+}

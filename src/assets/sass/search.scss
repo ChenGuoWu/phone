@@ -1,0 +1,78 @@
+html,body{
+    height: 100%;
+}
+
+.searches{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+}
+
+.header{
+    height:50px;
+    background: #232af9;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    color: white;
+    .headerback{
+        position: relative;
+        left: 20px;
+        top: 0px;
+    }
+    .headercontent{
+        position: relative;
+        left: -160px;
+        top: 0px;
+    }
+}
+
+.search{
+    height:50px;
+    background: white;
+}
+
+.addressbook-imguser{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+    div{
+        width: 100%;
+        height: 100%;
+        font-size: 12px;
+        text-align: center;
+        line-height: 30px;
+        background: chartreuse;
+    }
+}
+.addressbook{
+    flex: 1;
+    overflow-y: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+.addressbook-text{
+   
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    border-bottom: 1px solid #e4dfdf;
+   
+}
+.addressbook-name{
+    // transform: translateX(-10px);
+    width: 250px;
+}
+.siber{
+    width:100%;
+    height:24px;
+    background:#b5b6b9;
+    overflow-x: auto;
+    line-height: 24px;
+    padding-left: 5px;
+}
